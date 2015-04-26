@@ -3,7 +3,9 @@
   "version": "0.9.0",
   "description": "A simple bot for creating Flock searches from tweets.",
   "main": "bot.js",
-  "scripts": {"bot": "node bot.js"},
+  "scripts": {
+    "bot": "node bot.js",
+    "test": "node bot.js test"},
   "author": "Hendrik Kaju <hendrik.kaju@gmail.com",
   "license": "MIT",
   "dependencies": {

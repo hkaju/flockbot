@@ -203,7 +203,7 @@ function replyTo(data, tweetContent) {
 
 function testBot() {
   log('Starting test run');
-  var message = jf.readFile('message.json', function (err, obj) {
+  var message = jf.readFile('test/message.json', function (err, obj) {
     receiveTweet(obj);
   });
 }
