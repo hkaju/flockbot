@@ -73,7 +73,7 @@ function receiveTweet(message) {
       } else {
         replyTo({
           username: message.user.screen_name,
-          status_id: message.id
+          status_id: message.id_str
         }, tweet);
       }
     });
