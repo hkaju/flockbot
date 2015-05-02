@@ -170,8 +170,8 @@ function formatTweet(data, callback) {
 
   var tweet = format(tweetTemplate, {
     best: best.city.name,
-    time: Math.round(best.averageTimePerTravelingPersonH).toString(),
-    cost: Math.round(best.totalCostUsd).toString(),
+    time: Math.round(best.average_time_h_per_traveling_person).toString(),
+    cost: Math.round(best.total_cost_usd).toString(),
     second: second.city.name,
     third: third.city.name,
     link: 'https://flock.teleport.org/#!/' + data.id
