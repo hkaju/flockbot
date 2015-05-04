@@ -5,7 +5,8 @@
   "main": "bot.js",
   "scripts": {
     "bot": "node bot.js",
-    "test": "node bot.js test"},
+    "test": "jasmine"
+  },
   "author": "Hendrik Kaju <hendrik.kaju@gmail.com",
   "license": "MIT",
   "dependencies": {
@@ -15,5 +16,8 @@
     "request": "^2.55.0",
     "string-format": "^0.5.0",
     "twit": "^1.1.20"
+  },
+  "devDependencies": {
+    "jasmine": "^2.3.1"
   }
 }
