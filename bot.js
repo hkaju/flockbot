@@ -138,8 +138,7 @@ function fetchFlockLocations(teams, callback) {
     if (team.cityData) {
       options.people_groups.push({
         number_of_people: team.people,
-        source_city_geoname_id: team.cityData.geoname_id,
-        source_city: team.cityData
+        source_city_geoname_id: team.cityData.geoname_id
       });
     }
   });
